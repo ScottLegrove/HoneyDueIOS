@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18541A1C1CBE9AD700C33EED /* ListHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18541A1A1CBE9AD700C33EED /* ListHelper.swift */; };
+		18541A1D1CBE9AD700C33EED /* UserHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18541A1B1CBE9AD700C33EED /* UserHelper.swift */; };
+		18541A1F1CBE9AF100C33EED /* ListItemHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18541A1E1CBE9AF100C33EED /* ListItemHelper.swift */; };
+		18541A231CBE9AFF00C33EED /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18541A201CBE9AFF00C33EED /* List.swift */; };
+		18541A241CBE9AFF00C33EED /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18541A211CBE9AFF00C33EED /* Task.swift */; };
+		18541A251CBE9AFF00C33EED /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18541A221CBE9AFF00C33EED /* User.swift */; };
+		18541A271CBE9B1F00C33EED /* APIConsumer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18541A261CBE9B1F00C33EED /* APIConsumer.swift */; };
+		18541A2A1CBE9B9900C33EED /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18541A291CBE9B9900C33EED /* LoginViewController.swift */; };
+		18541A2C1CBEA56600C33EED /* ListsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18541A2B1CBEA56600C33EED /* ListsViewController.swift */; };
+		18541A2E1CBECBAD00C33EED /* TasksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18541A2D1CBECBAD00C33EED /* TasksViewController.swift */; };
+		18541A301CBED97400C33EED /* TaskDescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18541A2F1CBED97400C33EED /* TaskDescriptionViewController.swift */; };
+		18541A321CBEE5DF00C33EED /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18541A311CBEE5DF00C33EED /* RegisterViewController.swift */; };
+		846DA1D91CBEFC7800E279B9 /* AddTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846DA1D81CBEFC7800E279B9 /* AddTaskViewController.swift */; };
+		A07B3C891CC05D48007E1FF5 /* ShareListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07B3C881CC05D48007E1FF5 /* ShareListController.swift */; };
+		D2AA7EB31CAB3F5000AA9C7B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AA7EB21CAB3F5000AA9C7B /* AppDelegate.swift */; };
+		D2AA7EB51CAB3F5000AA9C7B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AA7EB41CAB3F5000AA9C7B /* ViewController.swift */; };
+		D2AA7EB81CAB3F5000AA9C7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2AA7EB61CAB3F5000AA9C7B /* Main.storyboard */; };
+		D2AA7EBB1CAB3F5000AA9C7B /* Honey_Due.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D2AA7EB91CAB3F5000AA9C7B /* Honey_Due.xcdatamodeld */; };
+		D2AA7EBD1CAB3F5000AA9C7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2AA7EBC1CAB3F5000AA9C7B /* Assets.xcassets */; };
+		D2AA7EC01CAB3F5000AA9C7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2AA7EBE1CAB3F5000AA9C7B /* LaunchScreen.storyboard */; };
+		D2AA7ECB1CAB3F5000AA9C7B /* Honey_DueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AA7ECA1CAB3F5000AA9C7B /* Honey_DueTests.swift */; };
+		D2AA7ED61CAB3F5000AA9C7B /* Honey_DueUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AA7ED51CAB3F5000AA9C7B /* Honey_DueUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D2AA7EC71CAB3F5000AA9C7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2AA7EA71CAB3F5000AA9C7B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AA7EAE1CAB3F5000AA9C7B;
+			remoteInfo = "Honey Due";
+		};
+		D2AA7ED21CAB3F5000AA9C7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2AA7EA71CAB3F5000AA9C7B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AA7EAE1CAB3F5000AA9C7B;
+			remoteInfo = "Honey Due";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18541A1A1CBE9AD700C33EED /* ListHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListHelper.swift; sourceTree = "<group>"; };
+		18541A1B1CBE9AD700C33EED /* UserHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserHelper.swift; sourceTree = "<group>"; };
+		18541A1E1CBE9AF100C33EED /* ListItemHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListItemHelper.swift; sourceTree = "<group>"; };
+		18541A201CBE9AFF00C33EED /* List.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = List.swift; sourceTree = "<group>"; };
+		18541A211CBE9AFF00C33EED /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		18541A221CBE9AFF00C33EED /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		18541A261CBE9B1F00C33EED /* APIConsumer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIConsumer.swift; sourceTree = "<group>"; };
+		18541A291CBE9B9900C33EED /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		18541A2B1CBEA56600C33EED /* ListsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListsViewController.swift; sourceTree = "<group>"; };
+		18541A2D1CBECBAD00C33EED /* TasksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TasksViewController.swift; sourceTree = "<group>"; };
+		18541A2F1CBED97400C33EED /* TaskDescriptionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskDescriptionViewController.swift; sourceTree = "<group>"; };
+		18541A311CBEE5DF00C33EED /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		846DA1D81CBEFC7800E279B9 /* AddTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTaskViewController.swift; sourceTree = "<group>"; };
+		A07B3C881CC05D48007E1FF5 /* ShareListController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShareListController.swift; sourceTree = "<group>"; };
+		D2AA7EAF1CAB3F5000AA9C7B /* Honey Due.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Honey Due.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2AA7EB21CAB3F5000AA9C7B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D2AA7EB41CAB3F5000AA9C7B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D2AA7EB71CAB3F5000AA9C7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D2AA7EBA1CAB3F5000AA9C7B /* Honey_Due.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Honey_Due.xcdatamodel; sourceTree = "<group>"; };
+		D2AA7EBC1CAB3F5000AA9C7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D2AA7EBF1CAB3F5000AA9C7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D2AA7EC11CAB3F5000AA9C7B /* info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = info.plist; sourceTree = "<group>"; };
+		D2AA7EC61CAB3F5000AA9C7B /* Honey DueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Honey DueTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2AA7ECA1CAB3F5000AA9C7B /* Honey_DueTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Honey_DueTests.swift; sourceTree = "<group>"; };
+		D2AA7ECC1CAB3F5000AA9C7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2AA7ED11CAB3F5000AA9C7B /* Honey DueUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Honey DueUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2AA7ED51CAB3F5000AA9C7B /* Honey_DueUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Honey_DueUITests.swift; sourceTree = "<group>"; };
+		D2AA7ED71CAB3F5000AA9C7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2AA7EAC1CAB3F5000AA9C7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2AA7EC31CAB3F5000AA9C7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2AA7ECE1CAB3F5000AA9C7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18541A181CBE9A2400C33EED /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				18541A201CBE9AFF00C33EED /* List.swift */,
+				18541A211CBE9AFF00C33EED /* Task.swift */,
+				18541A221CBE9AFF00C33EED /* User.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		18541A191CBE9A4200C33EED /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				18541A261CBE9B1F00C33EED /* APIConsumer.swift */,
+				18541A1E1CBE9AF100C33EED /* ListItemHelper.swift */,
+				18541A1A1CBE9AD700C33EED /* ListHelper.swift */,
+				18541A1B1CBE9AD700C33EED /* UserHelper.swift */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		18541A281CBE9B4000C33EED /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				18541A291CBE9B9900C33EED /* LoginViewController.swift */,
+				18541A2B1CBEA56600C33EED /* ListsViewController.swift */,
+				18541A2D1CBECBAD00C33EED /* TasksViewController.swift */,
+				18541A2F1CBED97400C33EED /* TaskDescriptionViewController.swift */,
+				18541A311CBEE5DF00C33EED /* RegisterViewController.swift */,
+				846DA1D81CBEFC7800E279B9 /* AddTaskViewController.swift */,
+				A07B3C881CC05D48007E1FF5 /* ShareListController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		D2AA7EA61CAB3F5000AA9C7B = {
+			isa = PBXGroup;
+			children = (
+				D2AA7EB11CAB3F5000AA9C7B /* Honey Due */,
+				D2AA7EC91CAB3F5000AA9C7B /* Honey DueTests */,
+				D2AA7ED41CAB3F5000AA9C7B /* Honey DueUITests */,
+				D2AA7EB01CAB3F5000AA9C7B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D2AA7EB01CAB3F5000AA9C7B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AA7EAF1CAB3F5000AA9C7B /* Honey Due.app */,
+				D2AA7EC61CAB3F5000AA9C7B /* Honey DueTests.xctest */,
+				D2AA7ED11CAB3F5000AA9C7B /* Honey DueUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2AA7EB11CAB3F5000AA9C7B /* Honey Due */ = {
+			isa = PBXGroup;
+			children = (
+				18541A281CBE9B4000C33EED /* Controllers */,
+				18541A191CBE9A4200C33EED /* Helpers */,
+				18541A181CBE9A2400C33EED /* Models */,
+				D2AA7EB21CAB3F5000AA9C7B /* AppDelegate.swift */,
+				D2AA7EB41CAB3F5000AA9C7B /* ViewController.swift */,
+				D2AA7EB61CAB3F5000AA9C7B /* Main.storyboard */,
+				D2AA7EBC1CAB3F5000AA9C7B /* Assets.xcassets */,
+				D2AA7EBE1CAB3F5000AA9C7B /* LaunchScreen.storyboard */,
+				D2AA7EC11CAB3F5000AA9C7B /* info.plist */,
+				D2AA7EB91CAB3F5000AA9C7B /* Honey_Due.xcdatamodeld */,
+			);
+			path = "Honey Due";
+			sourceTree = "<group>";
+		};
+		D2AA7EC91CAB3F5000AA9C7B /* Honey DueTests */ = {
+			isa = PBXGroup;
+			children = (
+				D2AA7ECA1CAB3F5000AA9C7B /* Honey_DueTests.swift */,
+				D2AA7ECC1CAB3F5000AA9C7B /* Info.plist */,
+			);
+			path = "Honey DueTests";
+			sourceTree = "<group>";
+		};
+		D2AA7ED41CAB3F5000AA9C7B /* Honey DueUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D2AA7ED51CAB3F5000AA9C7B /* Honey_DueUITests.swift */,
+				D2AA7ED71CAB3F5000AA9C7B /* Info.plist */,
+			);
+			path = "Honey DueUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D2AA7EAE1CAB3F5000AA9C7B /* Honey Due */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2AA7EDA1CAB3F5000AA9C7B /* Build configuration list for PBXNativeTarget "Honey Due" */;
+			buildPhases = (
+				D2AA7EAB1CAB3F5000AA9C7B /* Sources */,
+				D2AA7EAC1CAB3F5000AA9C7B /* Frameworks */,
+				D2AA7EAD1CAB3F5000AA9C7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Honey Due";
+			productName = "Honey Due";
+			productReference = D2AA7EAF1CAB3F5000AA9C7B /* Honey Due.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D2AA7EC51CAB3F5000AA9C7B /* Honey DueTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2AA7EDD1CAB3F5000AA9C7B /* Build configuration list for PBXNativeTarget "Honey DueTests" */;
+			buildPhases = (
+				D2AA7EC21CAB3F5000AA9C7B /* Sources */,
+				D2AA7EC31CAB3F5000AA9C7B /* Frameworks */,
+				D2AA7EC41CAB3F5000AA9C7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2AA7EC81CAB3F5000AA9C7B /* PBXTargetDependency */,
+			);
+			name = "Honey DueTests";
+			productName = "Honey DueTests";
+			productReference = D2AA7EC61CAB3F5000AA9C7B /* Honey DueTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D2AA7ED01CAB3F5000AA9C7B /* Honey DueUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2AA7EE01CAB3F5000AA9C7B /* Build configuration list for PBXNativeTarget "Honey DueUITests" */;
+			buildPhases = (
+				D2AA7ECD1CAB3F5000AA9C7B /* Sources */,
+				D2AA7ECE1CAB3F5000AA9C7B /* Frameworks */,
+				D2AA7ECF1CAB3F5000AA9C7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2AA7ED31CAB3F5000AA9C7B /* PBXTargetDependency */,
+			);
+			name = "Honey DueUITests";
+			productName = "Honey DueUITests";
+			productReference = D2AA7ED11CAB3F5000AA9C7B /* Honey DueUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D2AA7EA71CAB3F5000AA9C7B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Scott Legrove";
+				TargetAttributes = {
+					D2AA7EAE1CAB3F5000AA9C7B = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					D2AA7EC51CAB3F5000AA9C7B = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = D2AA7EAE1CAB3F5000AA9C7B;
+					};
+					D2AA7ED01CAB3F5000AA9C7B = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = D2AA7EAE1CAB3F5000AA9C7B;
+					};
+				};
+			};
+			buildConfigurationList = D2AA7EAA1CAB3F5000AA9C7B /* Build configuration list for PBXProject "Honey Due" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D2AA7EA61CAB3F5000AA9C7B;
+			productRefGroup = D2AA7EB01CAB3F5000AA9C7B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AA7EAE1CAB3F5000AA9C7B /* Honey Due */,
+				D2AA7EC51CAB3F5000AA9C7B /* Honey DueTests */,
+				D2AA7ED01CAB3F5000AA9C7B /* Honey DueUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D2AA7EAD1CAB3F5000AA9C7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2AA7EC01CAB3F5000AA9C7B /* LaunchScreen.storyboard in Resources */,
+				D2AA7EBD1CAB3F5000AA9C7B /* Assets.xcassets in Resources */,
+				D2AA7EB81CAB3F5000AA9C7B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2AA7EC41CAB3F5000AA9C7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2AA7ECF1CAB3F5000AA9C7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AA7EAB1CAB3F5000AA9C7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18541A241CBE9AFF00C33EED /* Task.swift in Sources */,
+				846DA1D91CBEFC7800E279B9 /* AddTaskViewController.swift in Sources */,
+				D2AA7EB51CAB3F5000AA9C7B /* ViewController.swift in Sources */,
+				18541A2C1CBEA56600C33EED /* ListsViewController.swift in Sources */,
+				18541A271CBE9B1F00C33EED /* APIConsumer.swift in Sources */,
+				D2AA7EB31CAB3F5000AA9C7B /* AppDelegate.swift in Sources */,
+				18541A2E1CBECBAD00C33EED /* TasksViewController.swift in Sources */,
+				18541A321CBEE5DF00C33EED /* RegisterViewController.swift in Sources */,
+				18541A231CBE9AFF00C33EED /* List.swift in Sources */,
+				D2AA7EBB1CAB3F5000AA9C7B /* Honey_Due.xcdatamodeld in Sources */,
+				18541A251CBE9AFF00C33EED /* User.swift in Sources */,
+				18541A1C1CBE9AD700C33EED /* ListHelper.swift in Sources */,
+				18541A1F1CBE9AF100C33EED /* ListItemHelper.swift in Sources */,
+				18541A1D1CBE9AD700C33EED /* UserHelper.swift in Sources */,
+				18541A301CBED97400C33EED /* TaskDescriptionViewController.swift in Sources */,
+				A07B3C891CC05D48007E1FF5 /* ShareListController.swift in Sources */,
+				18541A2A1CBE9B9900C33EED /* LoginViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2AA7EC21CAB3F5000AA9C7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2AA7ECB1CAB3F5000AA9C7B /* Honey_DueTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2AA7ECD1CAB3F5000AA9C7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2AA7ED61CAB3F5000AA9C7B /* Honey_DueUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D2AA7EC81CAB3F5000AA9C7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2AA7EAE1CAB3F5000AA9C7B /* Honey Due */;
+			targetProxy = D2AA7EC71CAB3F5000AA9C7B /* PBXContainerItemProxy */;
+		};
+		D2AA7ED31CAB3F5000AA9C7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2AA7EAE1CAB3F5000AA9C7B /* Honey Due */;
+			targetProxy = D2AA7ED21CAB3F5000AA9C7B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D2AA7EB61CAB3F5000AA9C7B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2AA7EB71CAB3F5000AA9C7B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D2AA7EBE1CAB3F5000AA9C7B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2AA7EBF1CAB3F5000AA9C7B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D2AA7ED81CAB3F5000AA9C7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D2AA7ED91CAB3F5000AA9C7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D2AA7EDB1CAB3F5000AA9C7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Honey Due/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sl.Honey-Due";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D2AA7EDC1CAB3F5000AA9C7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Honey Due/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sl.Honey-Due";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D2AA7EDE1CAB3F5000AA9C7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Honey DueTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sl.Honey-DueTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Honey Due.app/Honey Due";
+			};
+			name = Debug;
+		};
+		D2AA7EDF1CAB3F5000AA9C7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Honey DueTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sl.Honey-DueTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Honey Due.app/Honey Due";
+			};
+			name = Release;
+		};
+		D2AA7EE11CAB3F5000AA9C7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Honey DueUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sl.Honey-DueUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Honey Due";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D2AA7EE21CAB3F5000AA9C7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Honey DueUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sl.Honey-DueUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Honey Due";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D2AA7EAA1CAB3F5000AA9C7B /* Build configuration list for PBXProject "Honey Due" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2AA7ED81CAB3F5000AA9C7B /* Debug */,
+				D2AA7ED91CAB3F5000AA9C7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2AA7EDA1CAB3F5000AA9C7B /* Build configuration list for PBXNativeTarget "Honey Due" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2AA7EDB1CAB3F5000AA9C7B /* Debug */,
+				D2AA7EDC1CAB3F5000AA9C7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2AA7EDD1CAB3F5000AA9C7B /* Build configuration list for PBXNativeTarget "Honey DueTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2AA7EDE1CAB3F5000AA9C7B /* Debug */,
+				D2AA7EDF1CAB3F5000AA9C7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2AA7EE01CAB3F5000AA9C7B /* Build configuration list for PBXNativeTarget "Honey DueUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2AA7EE11CAB3F5000AA9C7B /* Debug */,
+				D2AA7EE21CAB3F5000AA9C7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D2AA7EB91CAB3F5000AA9C7B /* Honey_Due.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D2AA7EBA1CAB3F5000AA9C7B /* Honey_Due.xcdatamodel */,
+			);
+			currentVersion = D2AA7EBA1CAB3F5000AA9C7B /* Honey_Due.xcdatamodel */;
+			path = Honey_Due.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D2AA7EA71CAB3F5000AA9C7B /* Project object */;
+}
